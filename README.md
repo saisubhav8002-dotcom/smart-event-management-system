@@ -3,7 +3,7 @@
 
 ##  Project Overview
 
-The Smart Event Management System is a console-based Python application designed to manage college events efficiently. It allows users to add events, register students, and manage event participation. The system also includes smart features like event clash detection, registration limits, and automatic ticket generation to simulate real-world event handling.
+The Smart Event Management System is a Python based application designed to manage college events efficiently. It allows users to add events, register students, and manage event participation. The system also includes smart features like event clash detection, registration limits, and automatic ticket generation to simulate real-world event handling.
 
 ---
 
@@ -33,8 +33,14 @@ The Smart Event Management System is a console-based Python application designed
 ## Technologies / Tools Used
 
 * **Programming Language:** Python
-* **Concepts Used:** Functions, Lists, Dictionaries, Loops, Conditional Statements
-* **Platform:** Any system with Python installed
+* **Concepts Used:**
+  - Functions
+  - Lists
+  - Dictionaries
+  - Loops
+  - Conditional
+  - Statements
+* **Platform:** Visual Studio Code
 
 ---
 
@@ -72,6 +78,7 @@ Make sure you have:
 ```text
  main.py
  README.md
+ eventmanagement.py
 ```
 ---
 
@@ -99,15 +106,75 @@ All operations are performed through a menu-driven interface.
 
 ## Instructions for Testing
 
-1. Run the program
-2. Select option `1` to add events
-3. Select option `4` to add students
-4. Select option `5` to register students
-5. Select option `6` to view registrations
-6. Try:
+Run the program using python main.py\
+You will see the main menu\
+Follow options step-by-step:
 
-   * Registering more than 3 events → blocked
-   * Registering overlapping events → conflict detected
+### Test Case 1:
+Add Event\
+Choose option 1\
+Enter event details (name, date, time, etc.)\
+Verify:\
+Message “Event Added!” appears\
+Event shows in “View Events”
+
+### Test Case 2:
+View Events\
+Choose option 2\
+Verify:\
+All added events are displayed\
+IDs are correctly assigned
+
+### Test Case 3: 
+Add Student\
+Choose option 4\
+Enter student name and email\
+Verify:\
+“Student Added!” message appears
+
+### Test Case 4:
+Register Student for Event\
+Choose option 5\
+Enter valid Student ID and Event ID\
+Verify:\
+Registration is successful\
+Ticket ID is generated (e.g., EVT2026-001-001)
+
+### Test Case 5:
+Registration Limit Check\
+Register the same student for 3 events\
+Try registering for a 4th event\
+Expected Result:\
+System blocks registration\
+Shows “Limit reached” message
+
+### Test Case 6:
+Event Time Conflict\
+Create 2 events with overlapping time\
+Register same student for first event\
+Try registering for second event\
+Expected Result:\
+Conflict message displayed\
+Registration blocked
+
+### Test Case 7:
+View Registrations\
+Choose option 6\
+Verify:\
+All registrations are displayed\
+Ticket IDs are shown correctly
+
+### Test Case 8:
+Delete Event\
+Choose option 3\
+Enter Event ID\
+Verify:\
+Event is removed from list
+
+### Edge Case Testing
+Enter invalid IDs → should not crash\
+Enter empty values → observe behavior\
+Try registering without adding student/event
 
 ---
 
@@ -143,7 +210,12 @@ Ticket: EVT2026-001-001
 
 ## Project File
 
-* `main.py` → Contains the complete program logic
+Smart-Event-Mangaement-System/\
+|\
+|-- main.py\
+|-- README.md\
+|-- eventmanagement.py
+
 
 ---
 
@@ -153,4 +225,3 @@ Varanasi Sai Subhaprada\
 Project = Smart Event Management System\
 Language : Python
 
----
