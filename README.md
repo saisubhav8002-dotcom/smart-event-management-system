@@ -82,6 +82,7 @@ Open Command Prompt or Terminal inside the project folder and run:
 ```bash
 python main.py
 ```
+
 If your system uses `python3`:
 
 ```bash
@@ -105,8 +106,8 @@ All operations are performed through a menu-driven interface.
 5. Select option `6` to view registrations
 6. Try:
 
-   * Registering more than 3 events → ❌ blocked
-   * Registering overlapping events → ⚠ conflict detected
+   * Registering more than 3 events → blocked
+   * Registering overlapping events → conflict detected
 
 ---
 
@@ -129,13 +130,13 @@ Start Time: 10:00
 End Time: 12:00
 Location: Auditorium
 Description: Coding Event
-✅ Event Added!
+Event Added!
 
 Enter choice: 5
 Student ID: 1
 Event ID: 1
-✅ Registered Successfully!
-🎫 Ticket: EVT2026-001-001
+Registered Successfully!
+Ticket: EVT2026-001-001
 ```
 
 ---
