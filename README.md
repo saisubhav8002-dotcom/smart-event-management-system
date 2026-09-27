@@ -30,6 +30,15 @@ The Smart Event Management System is a Python based application designed to mana
 
 ---
 
+## Future Improvements
+
+* Add database for persistent storage
+* Implement GUI or web interface
+* Add login system
+* Add analytics and reporting
+
+---
+
 ## Technologies / Tools Used
 
 * **Programming Language:** Python
