@@ -149,8 +149,8 @@ Ticket: EVT2026-001-001
 
 ## Author
 
-Varanasi Sai Subhaprada
-Project = Smart Event Management System
+Varanasi Sai Subhaprada\
+Project = Smart Event Management System\
 Language : Python
 
 ---
