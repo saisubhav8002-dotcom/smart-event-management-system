@@ -69,7 +69,7 @@ cd smart-event-management-system
 
 Make sure you have:
 
-```bash
+```text
  main.py
  README.md
 ```
@@ -77,10 +77,16 @@ Make sure you have:
 
 ### Step 5: Run the Program
 
+Open Command Prompt or Terminal inside the project folder and run:
+
 ```bash
 python main.py
 ```
+If your system uses `python3`:
 
+```bash
+python3 main.py
+```
 ---
 
 ## Login Details
