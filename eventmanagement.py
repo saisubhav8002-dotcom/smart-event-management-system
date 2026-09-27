@@ -6,7 +6,6 @@ registrations = []
 event_id_counter = 1
 student_id_counter = 1
 
-
 # GENERATE TICKET
 def generate_ticket(event_id, student_id):
     return f"EVT2026-{event_id:03d}-{student_id:03d}"
@@ -14,7 +13,6 @@ def generate_ticket(event_id, student_id):
 # TIME CONFLICT CHECK
 def time_conflict(start1, end1, start2, end2):
     return not (end1 <= start2 or start1 >= end2)
-
 
 # EVENT FUNCTIONS
 def add_event():
@@ -55,7 +53,6 @@ def delete_event():
     events = [e for e in events if e["id"] != eid]
     print("Event Deleted")
 
-
 # STUDENT FUNCTIONS
 def add_student():
     global student_id_counter
@@ -73,7 +70,6 @@ def add_student():
     student_id_counter += 1
 
     print("Student Added!")
-
 
 # REGISTRATION 
 def register():
@@ -118,7 +114,6 @@ def view_registrations():
     for r in registrations:
         print(r)
 
-
 # MENU
 def menu():
     print("\n===== EVENT MANAGEMENT SYSTEM =====")
@@ -129,7 +124,6 @@ def menu():
     print("5. Register for Event")
     print("6. View Registrations")
     print("7. Exit")
-
 
 # MAIN LOOP
 while True:
