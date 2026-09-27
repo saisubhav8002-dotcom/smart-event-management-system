@@ -88,6 +88,7 @@ Make sure you have:
  main.py
  README.md
  eventmanagement.py
+ statement.md
 ```
 ---
 
@@ -223,7 +224,8 @@ Smart-Event-Mangaement-System/\
 |\
 |-- main.py\
 |-- README.md\
-|-- eventmanagement.py
+|-- eventmanagement.py\
+|-- statement.md
 
 
 ---
