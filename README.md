@@ -44,7 +44,7 @@ You should see the installed Python version.
 
 
 1. Clone the repository
-git clone https://github.com/your-username/smart-event-management-system.git
+git clone <https://github.com/saisubhav8002-dotcom/smart-event-management-system>
 cd smart-event-management-system
 2. Run the project
 python main.py
