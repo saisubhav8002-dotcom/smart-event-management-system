@@ -107,13 +107,6 @@ python3 main.py
 ```
 ---
 
-## Login Details
-
-This project does **not require login credentials**.
-All operations are performed through a menu-driven interface.
-
----
-
 ## Instructions for Testing
 
 Run the program using python main.py\
