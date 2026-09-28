@@ -1,6 +1,3 @@
-# Project Statement
-
-
 ## Problem Statement
 
 Managing college events manually often leads to issues like scheduling conflicts, unorganized data, and lack of control over student registrations. This project aims to create a system that automates event management and ensures efficient, structured, and conflict-free handling of events and registrations.
